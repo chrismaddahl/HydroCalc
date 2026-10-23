@@ -1,0 +1,84 @@
+HydroCalc {{VERSION}} – Offline-Version / Offline edition
+=======================================================
+
+DEUTSCH
+
+1. ZIP-Datei vollständig entpacken.
+2. Im entpackten Ordner die Datei HydroCalc.html mit einem aktuellen
+   Desktop-Browser öffnen (z. B. Chrome, Edge oder Firefox).
+3. Eigene Dünger anlegen, Wasserwerte und Ziele eingeben und berechnen.
+
+Es ist keine Internetverbindung, Installation, Anmeldung oder Server-Software
+erforderlich. Programmcode und Gestaltung sind in HydroCalc.html enthalten.
+Die Düngerdatenbank startet leer.
+
+DATEN SICHERN
+Produkte, Rezepturen und der aktuelle Entwurf werden nach Möglichkeit lokal
+im Browser gespeichert. Dies sind keine Dateien im entpackten Ordner.
+Die Speicherung hängt vom Browser, Browserprofil und Speicherort der HTML-Datei
+ab. Andere Browser, ein anderer Dateipfad oder ein Update können einen
+anderen Speicherbereich verwenden. Im Privatmodus oder bei gesperrtem
+Browserspeicher sind Daten möglicherweise nur vorübergehend verfügbar.
+Eine Meldung in HydroCalc zeigt Speicherprobleme an.
+
+Zum dauerhaften Sichern:
+- Den aktuellen Entwurf zuerst über „Zur Sammlung“ speichern.
+- „Sammlung sichern“ lädt Produkte und gespeicherte Rezepturen als JSON herunter.
+- „Importieren“ liest die JSON-Datei als Kopien ein; vorhandene Einträge bleiben.
+
+Vor Updates, Verschieben der HTML-Datei oder Löschen von Browserdaten immer
+eine JSON-Sicherung erstellen. Eine Sicherung aus der Web-Version lässt sich
+in dieser Offline-Version importieren und umgekehrt. Browserdaten werden
+nicht automatisch zwischen Web-Version, Geräten oder Offline-Dateien geteilt.
+
+Die erste Version prüft keine Löslichkeit, Mischverträglichkeit, pH-Werte oder
+Eignung einer Rezeptur für eine bestimmte Kultur. Es gelten die fachlichen
+Annahmen der Anwendung. Der HTML-Inhalt aus dem ZIP wurde in Chromium unter
+Linux mit gesperrtem Netzwerk geprüft. Wegen einer Administratorrichtlinie
+des Testbrowsers wurde er direkt aus den Archivdaten an eine lokale
+Testadresse geliefert; das direkte Öffnen über file:// konnte dort nicht
+geprüft werden. Andere Browser und Betriebssysteme wurden nicht geprüft.
+Auf Mobilgeräten kann das direkte Öffnen heruntergeladener HTML-Dateien
+eingeschränkt sein.
+
+Quellcode und Dokumentation: https://github.com/chrismaddahl/HydroCalc
+Lizenzhinweise der enthaltenen Bibliotheken: THIRD-PARTY-LICENSES.txt
+
+ENGLISH
+
+1. Extract the entire ZIP archive.
+2. Open HydroCalc.html from the extracted folder in a current desktop browser
+   (for example Chrome, Edge or Firefox).
+3. Add your own fertilizers, enter source water and nutrient targets, calculate.
+
+No internet connection, installation, account or server software is required.
+All code and styles are embedded in HydroCalc.html. The fertilizer library
+starts empty.
+
+BACK UP YOUR DATA
+Products, saved recipes and the current draft are stored in your browser
+when browser storage is available, not as files in the extracted folder.
+Storage depends on the browser, profile and location of the HTML file.
+Using another browser or file path, or updating the application, may use a
+different storage area. Private browsing or blocked storage may be temporary.
+HydroCalc displays a warning when storage fails.
+
+For a durable backup:
+- Save your current draft using “Add to collection” first.
+- “Back up library” downloads products and saved recipes as a JSON file.
+- “Import” reads that JSON file as copies and preserves existing entries.
+
+Always export a JSON backup before updating, moving the HTML file or clearing
+browser data. Backups work in both the web and offline editions. Browser data
+is not automatically shared across editions, devices or HTML files.
+
+Solubility, mixing compatibility, pH and suitability for specific crops are
+not assessed. The application's documented assumptions apply. This edition
+was tested in Chromium on Linux with networking disabled. An administrator
+policy in the test browser blocks file://, so the identical HTML bytes from
+the ZIP were supplied directly to a local test URL. Direct file opening,
+other browsers and operating systems were not tested in this environment.
+Opening downloaded HTML files directly may be restricted on mobile devices.
+
+Source and documentation: https://github.com/chrismaddahl/HydroCalc
+Bundled third-party licenses: THIRD-PARTY-LICENSES.txt

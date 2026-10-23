@@ -60,6 +60,7 @@ import {
   storageKey,
   type Workspace,
 } from "./storage";
+import { version } from "../package.json";
 
 type T = (de: string, en: string) => string;
 function Numeric({
@@ -684,7 +685,7 @@ export default function App() {
           </div>
           <div className="sidebar-version">
             <span className="dot" />
-            HydroCalc <span>v0.1</span>
+            HydroCalc <span>v{version}</span>
           </div>
         </div>
       </aside>
@@ -728,6 +729,16 @@ export default function App() {
           </div>
         </header>
         <main>
+          {(import.meta.env.MODE === "offline" ||
+            location.protocol === "file:") && (
+            <div className="banner offline-notice">
+              <Download size={17} />
+              {t(
+                "Offline-Version · Vor einem Update oder Verschieben der Datei die Rezeptur zur Sammlung hinzufügen und die Sammlung als JSON sichern.",
+                "Offline edition · Before updating or moving this file, add your recipe to the collection and back up the library as JSON.",
+              )}
+            </div>
+          )}
           {storageError && (
             <div className="banner error-message" role="alert">
               {t(

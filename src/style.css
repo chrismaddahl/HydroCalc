@@ -1124,6 +1124,11 @@ h1 {
   border: 1px solid #dce9d3;
   color: #567748;
 }
+.offline-notice {
+  background: #edf5e8;
+  border: 1px solid #dce9d3;
+  color: #567748;
+}
 .stale {
   background: #fcf7e9;
   color: #9b813e;
